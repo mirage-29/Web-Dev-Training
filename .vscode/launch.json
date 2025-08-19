@@ -1,0 +1,12 @@
+{
+    "configurations": [
+        
+        
+        {
+            "type": "msedge",
+            "name": "http://0.0.0.0:3000/Basic_Html/Forms/index.html",
+            "request": "launch",
+            "url": "http://0.0.0.0:3000/Basic_Html/Forms/index.html"
+        }
+    ]
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <h1>Job Application for Software Engineer</h1>
+    <form method="post">
+      <div>
+        <label for="name"><b>Name : </b></label>
+        <input
+          type="text"
+          placeholder="Enter your name"
+          name="username"
+          id="name"
+        />
+      </div>
+
+      <label for="genderselction"><b>Gender : </b></label>
+      <div id="genderselction">
+        <input type="radio" name="gender" id="male" />
+        <label for="male">Male</label>
+
+        <input type="radio" name="gender" id="female" />
+        <label for="female">Female</label>
+      </div>
+
+      <label for="dob"><b>BirthDate : </b></label>
+      <input type="date" name="dob" id="dob" />
+
+      <div>
+        <label for="Address"><b>Address : </b></label>
+        <input
+          type="text"
+          placeholder="Enter your address"
+          name="address"
+          id="address"
+          size="100"
+        />
+      </div>
+      <label for="educationselection"><b>Select your education : </b></label>
+      <div id="educationselection">
+        <input type="radio" name="education" id="Graduate" />
+        <label for="Graduate">Graduate</label>
+
+        <input type="radio" name="education" id="PostGraduate" />
+        <label for="PostGraduate">Post Graduate</label>
+      </div>
+      <div>
+        <label for="email"><b>Email : </b></label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          size="40"
+          placeholder="Enter your Personal mail"
+        />
+      </div>
+
+      <div>
+        <label for="Resume"><b>Upload your resume : </b></label>
+        <input type="file" id="Resume" name="resume" />
+      </div>
+
+      <div>
+        <textarea
+          name="about"
+          role="70"
+          cols="90"
+          placeholder="Tell us about yourself"
+        ></textarea>
+      </div>
+      <input type="submit" />
+      <input type="reset" />
+    </form>
+  </body>
+</html>
