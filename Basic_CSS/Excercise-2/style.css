@@ -1,0 +1,23 @@
+h1{
+    text-align: center;
+    text-decoration: solid;
+    text-decoration: underline;
+    font-family: fantasy;
+    font-weight: 400;
+    font-style: italic;
+}
+div{
+    padding: 24px;
+    border: solid 2px cyan;
+    margin: 20px;
+ 
+}
+label.heading{
+     font-weight: 100;
+     color: crimson;
+}
+input:hover{
+   
+    font-size: large;
+    color: blue;
+}
