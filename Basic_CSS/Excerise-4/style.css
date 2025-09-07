@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    margin-bottom: 20px;
+   width: 100vw;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    background-color: aqua;
+    position: fixed;
+    top:0px;
+    justify-content: center;
+   
+}
+ul li{
+      padding: 30px;
+      background-color: aqua;
+}
+.boxes{
+   
+  
+    display: flex;
+   
+    justify-content: center;
+}
+.box{
+    overflow:auto;
+   height:1000px;
+ padding:20px;
+    margin: 100px;
+    background-color: brown;
+}
+.add{
+   position:fixed;
+   bottom:2vh;
+   right:1vw;
+}
+footer{
+    display: block;
+    
+    margin-bottom: 0px;
+    position: relative;
+    width: 100vw;
+    bottom: 0px;
+  text-align: center;
+  background-color: chocolate;
+  margin: 20px;
+  padding: 20px;
+}
+
+body{
+    background-color: blue;
+}
