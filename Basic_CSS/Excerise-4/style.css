@@ -1,56 +1,76 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  position: sticky;
+  top: 0px;
 }
 
-ul{
-    margin-bottom: 20px;
-   width: 100vw;
-    display: flex;
-    list-style: none;
-    justify-content: center;
-    background-color: aqua;
-    position: fixed;
-    top:0px;
-    justify-content: center;
-   
+ul {
+  margin-bottom: 20px;
+  width: 100vw;
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  background-color: aqua;
+  justify-content: center;
 }
-ul li{
-      padding: 30px;
-      background-color: aqua;
+ul li {
+  padding: 30px;
+  background-color: aqua;
 }
-.boxes{
-   
-  
-    display: flex;
-   
-    justify-content: center;
+ul li:hover {
+  background-color: rgb(255, 0, 162);
+  color: white;
+  cursor: pointer;
 }
-.box{
-    overflow:auto;
-   height:1000px;
- padding:20px;
-    margin: 100px;
-    background-color: brown;
+.boxes {
+  display: flex;
+  justify-content: center;
 }
-.add{
-   position:fixed;
-   bottom:2vh;
-   right:1vw;
+.box {
+  overflow: auto;
+  height: 1000px;
+  padding: 20px;
+  margin: 100px;
+  background-color: brown;
 }
-footer{
-    display: block;
-    
-    margin-bottom: 0px;
-    position: relative;
-    width: 100vw;
-    bottom: 0px;
+.add {
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  border: 1px solid grey;
+  padding-top: 2px;
+
+  box-sizing: border-box;
+  border-radius: 60%;
+  overflow: hidden;
+}
+footer {
+  display: block;
+
+  margin-bottom: 0px;
+  position: relative;
+  width: 100vw;
+  bottom: 0px;
   text-align: center;
   background-color: chocolate;
   margin: 20px;
   padding: 20px;
 }
 
-body{
-    background-color: blue;
+body {
+  background-color: blue;
+}
+
+.textbox {
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  padding: 70px;
+  margin: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 2px solid grey;
 }
