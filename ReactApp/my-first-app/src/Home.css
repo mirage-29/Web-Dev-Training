@@ -1,0 +1,13 @@
+#container{
+    display: flex;
+    align-items: center;
+   
+}
+#ids{
+    margin: 10px;
+    text-align: center;
+   font-size: small;
+    padding: 10px;
+   
+    background-color: rgb(184, 234, 234);
+}

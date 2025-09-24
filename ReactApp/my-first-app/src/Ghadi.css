@@ -1,0 +1,16 @@
+#time{
+    display: flexbox;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+}
+h1{
+   
+    font-size: 10rem;
+    color: #f82020;
+    font-family: 'Arial', sans-serif;
+}
+body{
+    background: #050505;
+}

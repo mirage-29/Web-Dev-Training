@@ -14,7 +14,7 @@
   background-color: rgb(184, 234, 234);
 }
 .forms:focus{
-  outline: 2px solid red;
+  outline: 2px solid rgb(144, 0, 255);
 }
 .forms:hover{
  height: 43px;
@@ -34,7 +34,12 @@ button:focus{
 }
 h2{
   font-size: 40px;
-  color: green;
+  color: rgb(30, 151, 211);
 }
-
+.count{
+  text-align: center;
+  margin: 10px;
+  border: solid purple 4px;
+  padding: 10px;
+}
 
