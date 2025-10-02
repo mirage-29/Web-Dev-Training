@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <button onClick={fun1}>ascending</button>
+    <button onClick={fun2}>descending</button>
+  </body>
+  <script>
+    let arr = [
+      2, 1, 21, 19, 0, 222, 34, 241, 2, 24, 124, 124, 12, 4124, 124, 124, 12,
+      4124, 124, 124, 12, 4124, 124, 124, 12, 4124, 124,
+    ];
+
+    function fun1() {
+      let data = arr.sort((a, b) => a - b);
+      console.log(data);
+    }
+    function fun2() {
+      let data = arr.sort((a, b) => b - a);
+      console.log(data);
+    }
+  </script>
+</html>
